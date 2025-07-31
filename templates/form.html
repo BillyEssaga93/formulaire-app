@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Indique que c'est un document HTML5 -->
+
+<html>
+<head>
+    <title>Formulaire</title>
+    <!-- Titre qui s'affichera dans l'onglet du navigateur -->
+</head>
+
+<body>
+    <h1>Formulaire utilisateur</h1>
+    <!-- Titre principal affiché sur la page -->
+
+    <!-- Formulaire HTML qui envoie les données à l'URL "/submit" avec la méthode POST -->
+    <form action="/submit" method="POST">
+
+        <!-- Champ texte pour le nom -->
+        Nom : <input type="text" name="nom" required><br><br>
+
+        <!-- Champ texte pour le prénom -->
+        Prénom : <input type="text" name="prenom" required><br><br>
+
+        <!-- Champ e-mail (validation automatique du format email par le navigateur) -->
+        Adresse mail : <input type="email" name="email" required><br><br>
+
+        <!-- Champ téléphone (le type tel permet d'afficher un clavier numérique sur mobile) -->
+        Téléphone : <input type="tel" name="telephone" required><br><br>
+
+        <!-- Champ texte pour le code postal -->
+        Code postal : <input type="text" name="code_postal" required><br><br>
+
+        <!-- Bouton pour envoyer le formulaire -->
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
