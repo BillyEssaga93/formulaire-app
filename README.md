@@ -26,7 +26,6 @@ formulaire-app/
 |----templates/  
 |----|---formulaire.html # Template HTML  
 |----data/ # Dossier monté pour enregistrer les fichiers Excel  
-|----README.md  
 
 
 ## Lancement rapide
