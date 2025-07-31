@@ -19,14 +19,14 @@ Une application web minimaliste développée avec **Python Flask**, permettant d
 
 ## Structure du projet
 
-formulaire-app/
-|----app.py # Script principal Flask
-|----Dockerfile # Construction de l'image Docker
-|----requirements.txt # Dépendances Python
-|----templates/
-|----|---formulaire.html # Template HTML
-|----data/ # Dossier monté pour enregistrer les fichiers Excel
-|----README.md
+formulaire-app/  
+|----app.py # Script principal Flask  
+|----Dockerfile # Construction de l'image Docker  
+|----requirements.txt # Dépendances Python  
+|----templates/  
+|----|---formulaire.html # Template HTML  
+|----data/ # Dossier monté pour enregistrer les fichiers Excel  
+|----README.md  
 
 
 ## Lancement rapide
